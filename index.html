@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>My Static Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">  
 <style>
 p {
   background-image: url('img/WhatsApp Image 2023-03-16 at 23.15.15.jpeg');
@@ -9,18 +13,34 @@ p {
 </head>
 <body>
 
-<h2>Background Image</h2>
-
-<p>You can specify background images<br>
-for any visible HTML element.<br>
-In this example, the background image<br>
-is specified for a div element.<br>
-By default, the background-image<br>
-will repeat itself in the direction(s)<br>
-where it is smaller than the element<br>
-where it is specified. (Try resizing the<br>
-browser window to see how the<br>
-background image behaves.</p>
+	<header>
+		<h1>Welcome to my website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+  	<main>
+		<section>
+			<h2>About me</h2>
+			<p>My name is John Doe and I'm a web developer.</p>
+		</section>
+		<section>
+			<h2>My skills</h2>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 John Doe</p>
+	</footer>
+	<script src="script.js"></script>
 
 </body>
 </html>
